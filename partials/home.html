@@ -1,0 +1,29 @@
+<div class="container body-container">
+    <div class="row">
+        <div id="main" class="col-sm-9">
+            <p class="textTable" ng-show="articles.length === 0">Nie ma żadnego artykułu</p>
+            <table ng-show="articles.length > 0" class="table">
+                <tr>
+                    <th>Tytuł</th>
+                    <th>Autor</th>
+                    <th>Treść</th>
+                    <th>Data publikacji</th>
+                    <th>Akcje</th>
+                </tr>
+                <tr ng-repeat="article in articles track by $index">
+                    <td>{{article.title}}</td>
+                    <td>{{article.author}}</td>
+                    <td>{{article.content}}</td>
+                    <td>{{article.createDate}}</td>
+                    <td>
+                        <a href="#!/edit/{{article.id}}" type="button" class="btn btn-primary">Edytuj</a>
+                        <button type="button"  ng-click="deleteArticle(article)" class="btn btn-danger">Usuń</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="sidebar" class="col-sm-3">
+            <a href="#!/new" class="btn btn-success">Dodaj</a>
+        </div>
+    </div>
+</div>

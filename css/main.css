@@ -1,0 +1,27 @@
+body
+{
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.errorText
+{
+    color: red;
+}
+.formButton
+{
+    margin-top: 10px;
+    margin-left: -48px;
+}
+textarea
+{
+    height: 230px !important;
+}
+.textTable
+{
+    font-size: 47px;
+}
+.iconSite
+{
+    padding-left: 0;
+}

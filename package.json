@@ -1,0 +1,28 @@
+{
+  "name": "article-manager",
+  "version": "0.0.1",
+  "description": "My first appp",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.15.0"
+  },
+  "engines": {
+    "node": "8.9.0"
+  },
+  "main": "node.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajKrzysztof/ArticleManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajKrzysztof/ArticleManager/issues"
+  },
+  "homepage": "https://github.com/MajKrzysztof/ArticleManager#readme"
+}
